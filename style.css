@@ -1,0 +1,96 @@
+/* Styles go here */
+
+@import url(https://fonts.googleapis.com/css?family=Sevillana);
+
+#sMenu {
+    font-size: 16px;
+    line-height: 18px;
+    color: #111111;
+    font-family: 'Sevillana', cursive;
+}
+
+#myHeader{
+     color: rgb(200,100,100);
+     text-align : center;
+     background:#eeeeee url("http://lorempixel.com/400/200/sports") no-repeat;
+     background-size:cover;
+     height:90px;
+}
+h1{
+   background-color:#000000;
+}
+#content p{
+      position:relative;
+      bottom:10px;
+      
+}
+#sMenu{
+  float:left;
+  background-color:#ddd;
+  width:20%;
+  margin:4px;
+  min-height:400px;
+}
+#wrapper{
+  max-width:1140;
+  margin:auto;
+}
+#sMenu h1{
+    text-align:center;
+    background-color:#ddd;
+}
+#navigation ul li a{
+  margin-right:3px;
+   display:inline-block;
+   background-color:#eeeeee;
+   color:#000;
+   width:100px;
+   position:relative;
+   padding:15px;
+   text-align:center;
+   text-decoration:none;
+}
+#navigation ul li a:hover{
+
+   background-color:#000;
+   color:#fff;
+}
+#navigation ul{
+
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+#navigation ul li{
+float:left;
+
+}
+#navigation{
+background-color:#333;
+color:#efefef;
+height:50px;
+}
+
+#myForm{
+  float:left;
+  width:60%;
+  border:40px 30px;
+  padding:20px;
+  margin:5px;
+  background-color:#eeefff;
+}
+
+.clear{
+  clear:both;
+}
+
+#myFooter{
+  background-color:#000;
+  color:#ddd;
+  text-align: center;
+  height:60px;
+  
+}
+
+  
